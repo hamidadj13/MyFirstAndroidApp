@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">My First Android App</string>
+    <string name="hello_name">Bonjour %1$s!</string>
+    <string name="choose_language">Choisir la langue</string>
+    <string name="lang_en">Anglais</string>
+    <string name="lang_fr">Français</string>
+    <string name="main_title">ESTIAM</string>
+    <string name="main_tab">Accueil</string>
+    <string name="products_title">Produits</string>
+    <string name="products_tab">Produits</string>
+    <string name="users_title">Utilisateurs</string>
+    <string name="users_tab">Utilisateurs</string>
+    <string name="users_db_title">Utilisateurs DB</string>
+    <string name="users_db_tab">Utilisateurs DB</string>
+    <string name="settings_title">Paramètres</string>
+    <string name="settings_action_description">Ouvrir les paramètres</string>
+    <string name="logout">Déconnexion</string>
+    <string name="home">Accueil</string>
+    <string name="users">Utilisateurs</string>
+    <string name="products">Produits</string>
+    <string name="db_users">BDD Utilisateurs</string>
+    <string name="login">Connexion</string>
+    <string name="register">Inscription</string>
+    <string name="settings">Paramètres</string>
+    <string name="confirm">Confirmer</string>
+    <string name="cancel">Annuler</string>
+    <string name="notifications_section">Notifications</string>
+    <string name="logout_confirm_message">Êtes-vous sûr de vouloir vous déconnecter ?</string>
+    <string name="home_title">Bienvenue sur notre application</string>
+    <string name="home_description">
+        Gérez vos produits, utilisateurs et données en toute simplicité dans une interface moderne et rapide.
+    </string>
+
+    <string name="home_btn_login">Se connecter</string>
+    <string name="home_btn_register">Créer un compte</string>
+
+    <string name="home_connected_title">Bonjour %1$s</string>
+    <string name="home_connected_description">Vous êtes connecté. Accédez aux sections via la barre de navigation.</string>
+
+    <string name="home_toast_welcome">Bienvenue %1$s</string>
+
+    <string name="login_title">Connexion</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Mot de passe</string>
+    <string name="login_button">Connexion</string>
+    <string name="login_register_prompt">Si vous n\'avez pas de compte, inscrivez-vous</string>
+
+    <string name="register_title">Inscription</string>
+    <string name="register_email">Email</string>
+    <string name="register_password">Mot de passe</string>
+    <string name="register_button">Inscription</string>
+    <string name="register_login_prompt">Si vous avez déjà un compte, connectez-vous</string>
+
+
+
+</resources>
