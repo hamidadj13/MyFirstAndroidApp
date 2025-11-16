@@ -10,10 +10,10 @@ import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 
-class UserDbViewModel(app: Application): AndroidViewModel(app) {
-    private val repo = UserLocalRepository(app)
+open class UserDbViewModel(app: Application): AndroidViewModel(app) {
+    val repo = UserLocalRepository(app)
 
-    private val remoteRepo = FirestoreRepository()
+    val remoteRepo = FirestoreRepository()
 
     val users  = repo.observedUsers().stateIn(
         scope = viewModelScope,

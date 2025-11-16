@@ -79,18 +79,19 @@ dependencies {
     implementation(libs.accompanist.swiperefresh)
 
     implementation(libs.androidx.compose.material3.v110)
-
-    // Coroutines test
-    testImplementation(libs.kotlinx.coroutines.test) // version stable récente
-
-    // Mocking (utile pour FirebaseAuth ou autres dépendances)
-    testImplementation(libs.mockk)
-
-    // pour runTest et dispatcher
+    implementation(libs.play.services.analytics.impl)
 
     ksp(libs.androidx.room.compiler)
 
     testImplementation(libs.junit)
+    testImplementation(libs.kotlinx.coroutines.test)
+    testImplementation(libs.mockk)
+    testImplementation(libs.robolectric)
+    testImplementation(libs.androidx.core)
+
+    // Pour tests unitaires (JVM)
+    testImplementation(libs.androidx.core.testing)
+
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(platform(libs.androidx.compose.bom))
